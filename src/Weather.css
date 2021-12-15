@@ -1,0 +1,18 @@
+.container
+{
+    margin-top:10vh;
+}
+body{
+    background: linear-gradient(to right,#36D1DC,#5B86E5);
+    color:white;
+}
+.all{
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+}
+input{
+    height:5vh;
+    border-radius: 10px;
+    border: none;
+}
