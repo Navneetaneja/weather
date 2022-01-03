@@ -30,6 +30,7 @@ function Weather(props) {
             if(result.cod==='404')
             {
                 setShow("NOT FOUND");
+                setData("");
             }
             else
             {
@@ -41,6 +42,7 @@ function Weather(props) {
     else
     {
         setShow("Enter City Name");
+        setData("");
     }
     
   };
@@ -84,7 +86,7 @@ function Weather(props) {
       }
       { 
       load===false &&
-      <div style={{marginTop:"2vh"}}>{element}</div>
+      <div>{element}</div>
       }
     </div>
   );
