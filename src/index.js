@@ -6,7 +6,7 @@ import Weather from './Weather';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Weather/>
+    <Weather mess="hi"/>
   </React.StrictMode>,
   document.getElementById('root')
 );

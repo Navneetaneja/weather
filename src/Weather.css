@@ -15,4 +15,34 @@ input{
     height:5vh;
     border-radius: 10px;
     border: none;
+    color:white;
+    background-color: orangered;
+}
+input:focus
+{
+    border:2px solid orange;
+}
+.loader
+{
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  border-top:5px solid dodgerblue;
+  border-left:5px solid red;
+  border-right:5px solid green;
+  border-bottom: 5px solid orange;
+  position: absolute;
+  margin:auto;
+  left: 0;
+  right: 0;
+  top:20vh;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
